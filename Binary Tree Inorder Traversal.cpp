@@ -7,6 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+//Given a binary tree, return the inorder traversal of its nodes' values.
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
